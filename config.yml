@@ -29,7 +29,7 @@ steps:
   description: Merge your Pull Request in the README.md file from Branch: (Branch name) to your Branch: master in your new Pull Request
   event: pull_request.opened
   actions:
-  - type:         # the type of action, full list at https://lab.github.com/docs/actions
+  - type: gate, full list at https://lab.github.com/docs/actions
                   # some actions require additional options, those should appear below `type:`
                   # you can execute multiple actions in the `before` block
                   #
