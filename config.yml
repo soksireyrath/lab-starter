@@ -17,7 +17,7 @@ template:
 
 before:
 - type:         # the type of action, full list at https://lab.github.com/docs/actions/
-                # some actions require additional options, those should appear below `type:`
+  title: Welcome
                 # you can execute multiple actions in the `before` block
 
 # Steps for the course
