@@ -33,7 +33,7 @@ steps:
                   # some actions require additional options, those should appear below `type:`
     operator: ===
     right: Merge README
-  # - type:
+  - type: respond
   #   option:
   #
   # - type:
