@@ -26,7 +26,7 @@ before:
 
 steps:
 - title: Create a new Pull Request
-  description:    # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+  description: Merge your Pull Request in the README.md file from Branch: (Branch name) to your Branch: master in your new Pull Request
   event:          # a list of the actions that will occur when the step is triggered by an event
   actions:
   - type:         # the type of action, full list at https://lab.github.com/docs/actions
