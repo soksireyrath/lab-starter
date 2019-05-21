@@ -31,7 +31,7 @@ steps:
   actions:
   - type: gate, full list at https://lab.github.com/docs/actions
                   # some actions require additional options, those should appear below `type:`
-                  # you can execute multiple actions in the `before` block
+    operator: ===
                   #
   # - type:
   #   option:
