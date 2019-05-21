@@ -16,7 +16,7 @@ template:
 # Actions to take place after the learner registers, but before they start interacting with their repo
 
 before:
-- type:         # the type of action, full list at https://lab.github.com/docs/actions/
+- type: createIssue
   title: Welcome
   body: welcome-text.md
 
