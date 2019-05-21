@@ -32,7 +32,7 @@ steps:
   - type: gate, full list at https://lab.github.com/docs/actions
                   # some actions require additional options, those should appear below `type:`
     operator: ===
-                  #
+    right: Merge README
   # - type:
   #   option:
   #
