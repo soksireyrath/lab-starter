@@ -34,7 +34,7 @@ steps:
     operator: ===
     right: Merge README
   - type: respond
-  #   option:
+    with: pull_request-opened.md
   #
   # - type:
   #   option:
