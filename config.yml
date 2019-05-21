@@ -30,7 +30,7 @@ steps:
   event: pull_request.opened
   actions:
   - type: gate, full list at https://lab.github.com/docs/actions
-                  # some actions require additional options, those should appear below `type:`
+    left: '%payload.pull_request.title%'
     operator: ===
     right: Merge README
   - type: respond
